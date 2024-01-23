@@ -1,0 +1,57 @@
+# Ignore Node.js modules and dependencies
+node_modules/
+
+# Ignore build artifacts and generated files
+dist/
+build/
+*.js.map
+
+# Ignore editor and IDE-specific files
+.vscode/
+.idea/
+
+# Ignore log files and debugging output
+*.log
+npm-debug.log*
+
+# Ignore project-specific configuration files
+*.config.js
+
+# Ignore package-lock.json (npm v5+)
+package-lock.json
+
+# Ignore .DS_Store (macOS system file)
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+*.tmp.*
+*.swp
+*~.nib
+
+# Ignore coverage directory
+coverage/
+
+# Ignore compiled files for server-side rendering (if applicable)
+server-build/
+
+# Ignore user-specific config files
+.npmrc
+yarn.lock
+
+# Ignore environment-specific files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore Three.js-specific build directories (if applicable)
+/node_modules/three/
+/.cache/
+/three.js/
+
+# Ignore custom configuration files
+webpack.config.js
+
+# Ignore Node.js debugging folder
+inspect/
